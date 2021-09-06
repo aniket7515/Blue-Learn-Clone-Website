@@ -149,6 +149,7 @@ nav ul li a{
     width: 286px;
     background-color: white;
     padding: 2px 12px;
+    border-radius: 5px;
     
     
 }
@@ -198,11 +199,13 @@ nav ul li a{
 }
 .container-3 .btn-3{
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .header h4{
     margin-top: 62px;
     font-size: 20px;
+    
 }
 
 .container-3 .card-1  .join{
@@ -211,3 +214,68 @@ nav ul li a{
 .container-3 .cards{
     display: flex;
 }
+.container-3 .cards .card-1{
+    border-radius: 5px;
+    border: 0.5px solid #31343c;
+}
+.container-3 .cards .card-1 p{
+    color: #31343c;
+}
+
+
+.container-4{
+    min-height: 100vh;
+    background-color: #f2f3f6;
+}
+
+.container-4 h1{
+    margin-left: 55px;
+}
+.container-4 h3{
+    margin-left: 55px;
+    color: #6c757d;
+    font-weight: 100;
+}
+.container-4 p{
+    margin-left: 55px;
+    
+}
+.container-4 .btn-4{
+    margin-left: 55px;
+    cursor: pointer;
+    padding: 14px 40px;
+    color: white;
+    background-color: #3d5aff;
+    border-radius: 5px;
+    border: 0;
+    transition: 1s;
+    
+}
+.btn-4:hover{
+    background-color: #2c3ab6;
+}
+.cards{
+    display: flex;
+}
+
+.container-4 .cardsNew{
+    display: flex;
+    margin-top: 65px;
+}
+.container-4 .cardsNew .card-2{
+    margin-left: 55px;
+    height: 388px;
+    width: 286px;
+    background-color: white;
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.container-4 .cardsNew .card-2 img{
+    width: 286px;
+    height: 209px;
+}
+.container-4 .cardsNew .card-2 .free{
+    margin-left: 0;
+    width: 125px;
+}
+
